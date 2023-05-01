@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: Matrix;
-    src: url("fonts/matrix/matrix.ttf");
+    font-family: Georgia;
+    src: url("fonts/Georgia/Georgia.woff");
 }
 
 body {
@@ -46,6 +46,7 @@ span {
     text-align: center;
     margin-left: 2px;
     border-radius: 4px;
+    user-select: none;
 }
 
 .key__symbols {
