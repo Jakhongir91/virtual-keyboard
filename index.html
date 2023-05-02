@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Virtual keyboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="icons.js"></script>
+</head>
+<body>
+<div class="textarea">
+  <textarea class="textarea__input" name="text-input" id="text-input" cols="30" rows="10" autofocus=""></textarea>
+</div>
+<div class="keyboard">
+  <div class="row">
+    <div class="key key__esc" data-primary="esc" data-secondary="null">
+      Esc
+    </div>
+    <div class="key key__symbols" data-primary="1" data-secondary="!">
+      ! <span> 1 </span>
+    </div>
+    <div class="key key__symbols" data-primary="2" data-secondary="@">
+      @ <span> 2 </span>
+    </div>
+    <div class="key key__symbols" data-primary="3" data-secondary="#">
+      # <span> 3 </span>
+    </div>
+    <div class="key key__symbols" data-primary="4" data-secondary="$">
+      $ <span> 4 </span>
+    </div>
+    <div class="key key__symbols" data-primary="5" data-secondary="%">
+      % <span> 5 </span>
+    </div>
+    <div class="key key__symbols" data-primary="6" data-secondary="^">
+      ^ <span> 6 </span>
+    </div>
+    <div class="key key__symbols" data-primary="7" data-secondary="&amp;">
+      &amp; <span> 7 </span>
+    </div>
+    <div class="key key__symbols" data-primary="8" data-secondary="*">
+      * <span> 8 </span>
+    </div>
+    <div class="key key__symbols" data-primary="9" data-secondary="(">
+      ( <span> 9 </span>
+    </div>
+    <div class="key key__symbols" data-primary="0" data-secondary=")">
+      ) <span> 0 </span>
+    </div>
+    <div class="key key__symbols" data-primary="-" data-secondary="_">
+      _ <span> - </span>
+    </div>
+    <div class="key key__symbols" data-primary="=" data-secondary="+">
+      + <span> = </span>
+    </div>
+    <div class="key key__delete key__icon" data-primary="Backspace" data-secondary="null">
+      Backspace
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="key key__oneandhalf" data-primary="Tab" data-secondary="null">
+      Tab
+    </div>
+    <div class="key key__pressed" data-primary="q" data-secondary="null">
+      Q
+    </div>
+    <div class="key" data-primary="w" data-secondary="null">
+      W
+    </div>
+    <div class="key" data-primary="e" data-secondary="null">
+      E
+    </div>
+    <div class="key" data-primary="r" data-secondary="null">
+      R
+    </div>
+    <div class="key" data-primary="t" data-secondary="null">
+      T
+    </div>
+    <div class="key" data-primary="y" data-secondary="null">
+      Y
+    </div>
+    <div class="key" data-primary="u" data-secondary="null">
+      U
+    </div>
+    <div class="key" data-primary="i" data-secondary="null">
+      I
+    </div>
+    <div class="key" data-primary="o" data-secondary="null">
+      O
+    </div>
+    <div class="key" data-primary="p" data-secondary="null">
+      P
+    </div>
+    <div class="key key__symbols" data-primary="[" data-secondary="{">
+      { <span> [ </span>
+    </div>
+    <div class="key key__symbols" data-primary="]" data-secondary="}">
+      } <span> ] </span>
+    </div>
+    <div class="key key__symbols key__oneandhalf" data-primary="\" data-secondary="|">
+      | <span> \ </span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="key key__caps" data-primary="CapsLock" data-secondary="null">
+      Caps Lock
+    </div>
+    <div class="key" data-primary="a" data-secondary="null">
+      A
+    </div>
+    <div class="key" data-primary="s" data-secondary="null">
+      S
+    </div>
+    <div class="key" data-primary="d" data-secondary="null">
+      D
+    </div>
+    <div class="key" data-primary="f" data-secondary="null">
+      F
+    </div>
+    <div class="key" data-primary="g" data-secondary="null">
+      G
+    </div>
+    <div class="key" data-primary="h" data-secondary="null">
+      H
+    </div>
+    <div class="key" data-primary="j" data-secondary="null">
+      J
+    </div>
+    <div class="key" data-primary="k" data-secondary="null">
+      K
+    </div>
+    <div class="key" data-primary="l" data-secondary="null">
+      L
+    </div>
+    <div class="key key__symbols" data-primary=":" data-secondary=";">
+      ; <span> : </span>
+    </div>
+    <div class="key key__symbols" data-primary="'" data-secondary="&quot;">
+      " <span> ' </span>
+    </div>
+    <div class="key key__enter" data-primary="Enter" data-secondary="null">
+      Enter
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="key key__shift-left" data-primary="Shift" data-secondary="null">
+      Shift
+    </div>
+    <div class="key" data-primary="z" data-secondary="null">
+      Z
+    </div>
+    <div class="key" data-primary="x" data-secondary="null">
+      X
+    </div>
+    <div class="key" data-primary="c" data-secondary="null">
+      C
+    </div>
+    <div class="key" data-primary="v" data-secondary="null">
+      V
+    </div>
+    <div class="key" data-primary="b" data-secondary="null">
+      B
+    </div>
+    <div class="key" data-primary="n" data-secondary="null">
+      N
+    </div>
+    <div class="key" data-primary="m" data-secondary="null">
+      M
+    </div>
+    <div class="key key__symbols" data-primary="," data-secondary="<">
+      &lt; <span> , </span>
+    </div>
+    <div class="key key__symbols" data-primary="." data-secondary=">">
+      &gt; <span> . </span>
+    </div>
+    <div class="key key__symbols" data-primary="/" data-secondary="?">
+      ? <span> / </span>
+    </div>
+    <div class="key" data-primary="" data-secondary="null">
+      <i data-feather="arrow-up-circle"></i>
+    </div>
+    <div class="key key__arrow" data-primary="ArrowUp" data-secondary="null">
+      <i data-feather="arrow-up"></i>
+    </div>
+    <div class="key" data-primary="" data-secondary="null">
+      <i data-feather="trash-2"></i>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="key key__bottom-funct" data-primary="Control" data-secondary="null">
+      Ctrl
+    </div>
+    <div class="key key__bottom-funct" data-primary="Win" data-secondary="null">
+      Win
+    </div>
+    <div class="key key__bottom-funct" data-primary="Alt" data-secondary="null">
+      Alt
+    </div>
+    <div class="key key__spacebar" data-primary=" " data-secondary="null">
+    </div>
+    <div class="key" data-primary="alt" data-secondary="null">
+      Alt
+    </div>
+    <div class="key" data-primary="win" data-secondary="null">
+      Win
+    </div>
+    <div class="key key__arrow" data-primary="ArrowLeft" data-secondary="null">
+      <i data-feather="arrow-left"></i>
+    </div>
+    <div class="key key__arrow" data-primary="ArrowDown" data-secondary="null">
+      <i data-feather="arrow-down"></i>
+    </div>
+    <div class="key key__arrow" data-primary="ArrowRight" data-secondary="null">
+      <i data-feather="arrow-right"></i>
+    </div>
+  </div>
+</div>
+<script src="app.js"></script>
+
+</body>
+</html>
