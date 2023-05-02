@@ -49,6 +49,10 @@ span {
     user-select: none;
 }
 
+.key__pressed {
+    background-color: cornflowerblue;
+}
+
 .key__symbols {
     line-height: 28px;
 }
